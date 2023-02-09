@@ -1,6 +1,6 @@
 # Eleventy Lab
 
-This is an experimental setup. It tries to setup 11ty in a way that it can read directly from Kirby's content folder.
+This is an experimental setup. It tries to configure 11ty in a way that it can read directly from Kirby's content folder.
 
 In contrast to the [Eleventy Kit](https://github.com/getkirby/eleventykit), this would not need any form of headless approach. 11ty can just grab the same data that Kirby stores. It truly gives you the best of both systems.
 

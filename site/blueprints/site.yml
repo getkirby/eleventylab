@@ -1,0 +1,17 @@
+title: Site
+
+tabs:
+  pages:
+    icon: page
+    sections:
+      notes:
+        extends: sections/notes
+  assets:
+    icon: image
+    sections:
+      assets:
+        parent: page('assets')
+        type: files
+        layout: cards
+        info: "{{ file.dimensions }}"
+

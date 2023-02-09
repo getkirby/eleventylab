@@ -1,0 +1,21 @@
+[*.*]
+charset = utf-8
+indent_style = tab
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.php]
+indent_size = 4
+
+[site/snippets/**.php]
+indent_size = 2
+
+[site/templates/**.php]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+

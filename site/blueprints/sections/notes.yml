@@ -1,0 +1,4 @@
+parent: site.find('notes')
+type: pages
+template: note
+info: "{{ page.date.toDate('F j, Y') }}"

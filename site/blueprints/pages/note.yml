@@ -1,0 +1,33 @@
+title: Note
+num: date
+image:
+  query: page.image
+  cover: true
+  ratio: 3/2
+  icon: 📖
+columns:
+  - width: 2/3
+    fields:
+      content:
+        type: textarea
+        size: huge
+        files: site.find('assets').files
+        uploads:
+          parent: site.find('assets')
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          tags:
+            label: Tags
+            type: tags
+            default: note
+          layout:
+            label: Layout
+            type: text
+            default: note
+          date:
+            type: date
+            time: true
+            default: now

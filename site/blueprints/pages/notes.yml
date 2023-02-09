@@ -1,0 +1,12 @@
+title: Notes
+icon: 📖
+
+sections:
+  drafts:
+    extends: sections/notes
+    status: draft
+  published:
+    extends: sections/notes
+    status: published
+
+

@@ -1,0 +1,8 @@
+title: File
+
+image:
+  ratio: 1/1
+
+fields:
+  alt:
+    type: text
